@@ -1,3 +1,6 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:8f06e561b607f340e0ef96cc1bb43ea4c9ad552d6441307b8a20a1b028a91f9b
-size 268
+Percentile Group,Percentile Range,"Value Range (thousands of US dollars, US$)",Pixel Count
+1,<25%,Less than or equal to -10099.2,2.0
+2,25-50%,-10099.2 to -6794.1,1.0
+3,50-75%,-6794.1 to 22627.0,1.0
+4,75-90%,22627.0 to 24720.4,2.0
+5,>90%,Greater than 24720.4,0.0

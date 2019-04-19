@@ -1,3 +1,11 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:ab08522fb5b86c94a3b7616dcb6da4ea73672b9b2d00fab021d6cb3760abea48
-size 617
+# InVEST Crop Production Model Global Dataset
+
+Last Date Modified: 12/09/201
+
+## Folders
+
+* climate_bin_maps (3 files): global maps of climate bins for barley, soybean, and wheat.
+* climate_percentile_yield (3 files): tables of barley, soybean, and wheat yield values for each climate bin.
+* climate_regression_yield (3 files): tables of coefficients for estimating barley, soybean, and wheat yields.
+* irrigation (3 files): global maps representing percentage of barley, soybean, and wheat land that is irrigated.
+* observered_yield (3 files): global maps representing observed yield for barley, soybean, and wheat.

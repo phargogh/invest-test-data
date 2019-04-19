@@ -1,3 +1,10 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:c09f6f3a8bd978ea799b1e4156f02a5c4122eda7e6c34b122735e3b3587b3836
-size 477
+NAME,VALUE,NOTE
+CapMax,750,Maximum capacity of device [kW].
+cc,3557,Capital cost per installed [$/kW].
+cml,17,Cost of mooring lines [$ per m].
+cul,111300,Cost of underwater transmission line [$ per km].
+col,73000,Cost of overland transmission line [$ per km].
+omc,0.04,Operating & maintenance cost [$ per kWh].
+p,0.2,Price of electricity [$ per kWh].
+r,0.08,Discount rate 
+smlpm,3,Slack-moored (i.e. requires length of 3 * depth); 3 slack lines per machine required.

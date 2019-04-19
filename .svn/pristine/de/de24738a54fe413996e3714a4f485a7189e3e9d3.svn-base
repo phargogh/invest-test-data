@@ -1,3 +1,28 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:3986a788b249b703e8b5b657ac9e826e138fb9ef286bd469d7ee7e7bbc92417a
-size 714
+./aggregated_results.dbf
+./aggregated_results.prj
+./aggregated_results.shp
+./aggregated_results.shx
+./B.tif
+./B_sum.tif
+./CN.tif
+./intermediate_outputs/aet.tif
+./intermediate_outputs/flow_dir.tif
+./intermediate_outputs/qf_1.tif
+./intermediate_outputs/qf_10.tif
+./intermediate_outputs/qf_11.tif
+./intermediate_outputs/qf_12.tif
+./intermediate_outputs/qf_2.tif
+./intermediate_outputs/qf_3.tif
+./intermediate_outputs/qf_4.tif
+./intermediate_outputs/qf_5.tif
+./intermediate_outputs/qf_6.tif
+./intermediate_outputs/qf_7.tif
+./intermediate_outputs/qf_8.tif
+./intermediate_outputs/qf_9.tif
+./intermediate_outputs/stream.tif
+./L.tif
+./L_avail.tif
+./L_sum.tif
+./L_sum_avail.tif
+./QF.tif
+./Vri.tif

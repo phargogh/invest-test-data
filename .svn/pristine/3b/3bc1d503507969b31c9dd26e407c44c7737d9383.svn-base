@@ -1,3 +1,11 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:810783323d37b58f90f6c5b3c33b043b94dadad9c2f33c141a451ecebbdbe3f0
-size 710
+General Operations Parameters (applies to all farms);;;Instructions:;;;,,,
+"Fraction of fish remaining after processing;85%;;""When necessary"," modify values for farm operations and/or add new farms (beginning with row """"32"""").  Do not", however," modify the location of cells in this template."";;;Key:"
+Natural mortality rate on the farm (daily);0.000137;;;;;remove?,,,
+Duration of simulation (years);5;;;;;,,,
+;;;;;;,,,
+;;;;;;,,,
+;;;;;;,,,
+Farm-Specific Operations Parameters;;;;;;,,,
+Farm #:;weight of fish at start (kg);target weight of fish at harvest (kg);number of fish in farm;start day for growing;Length of Fallowing period;,,,
+1;0.06;5.4;600000;60;0;,,,
+2;0.06;5.4;590000;50;90;,,,

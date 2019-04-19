@@ -1,3 +1,9 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:adb6404fa5d30c23322f62d12596291e6d7197a0a16e033b3fc2362d48cb7df7
-size 160
+snapped_outlets.prj
+snapped_outlets.shp
+snapped_outlets.shx
+stream.tif
+watersheds.dbf
+watersheds.prj
+watersheds.shp
+watersheds.shx
+snapped_outlets.dbf

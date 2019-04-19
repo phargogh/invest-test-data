@@ -1,3 +1,5 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:3bd9ff06b492d19cbefcc9484f76cad9efdfb2da0e665593e9341a4733a1556b
-size 231
+id,path,type
+ports,predictors/dredged_ports.shp,point_count
+airdist,predictors/airport.shp,point_nearest_distance
+bonefish,predictors/bonefish_trivial.shp,polygon_percent_coverage
+bathy_name_,predictors/dem90m.tif,raster_mean

@@ -1,3 +1,23 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:faa1425b286271ed60239a16c3771dcdcb961562eeb05225c48ab5299f2a1ad2
-size 465
+Dungeness Crab Model
+====================
+
+AOI: Hood Canal
+Timesteps: 100
+
+Population Model Type: Age-Based
+Sex-Specific: Yes
+Harvest by Individuals or Weight: Individuals
+
+Initial Recruits: 2e12
+Recruitment Function: Ricker
+Spawners by Individuals or Weight: Individuals
+Alpha: 2e6
+Beta: 3.09e-7
+
+(No Migration)
+
+(No Valuation)
+
+--- Verification with Spreadsheet Model ---
+Spreadsheet Spawners at 100th Cycle: 4,051,538
+Spreadsheet Harvest at 100th Cycle: 526,987

@@ -1,3 +1,7 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:dadcc4f955f4292682a1e26535a4f4860b63457f6203478040dea2628119b0d9
-size 154
+Class,1,,Maturity,VulnFishing
+0,0.00000106908452264581,,0,0
+1,0.71,,0,0
+2,0.83,,0,0.832141974
+3,0.83,,1,1
+,,,,
+ExploitationFraction,0.351487513,,,

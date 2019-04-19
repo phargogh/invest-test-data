@@ -1,3 +1,6 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:17386445264a3900c4d7365947a2fb471afd512f17f8b6bc5ff3285fd2406e73
-size 248
+Percentile Group,Percentile Range,"Value Range (megawatt hours per year, MWh/yr)",Pixel Count
+1,<25%,1 to 1992.0,542.0
+2,25-50%,1992.0 to 1992.0,0.0
+3,50-75%,1992.0 to 2294.0,358.0
+4,75-90%,2294.0 to 2294.0,0.0
+5,>90%,Greater than 2294.0,0.0

@@ -1,3 +1,5 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:784285f2a942c7c1e71414a9a87a36596d03f393b0543cb076bb546d0986fb24
-size 210
+inputs:
+-------
+continental_shelf_contour.gpkg is from the Census of Marine Life COMARGE effort:
+http://geonetwork.vliz.be/geonetwork/srv/eng/catalog.search#/metadata/dc5fd0a6-7e19-41a8-bd46-498e5f8926d1
+

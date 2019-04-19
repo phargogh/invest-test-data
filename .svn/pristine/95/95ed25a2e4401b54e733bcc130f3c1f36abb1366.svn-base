@@ -1,3 +1,17 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:c97c77c95224df9036c66d1ac6a1472139f964418ce2510c59087f119ec0290b
-size 362
+pud_results.shp
+pud_results.shx
+regression_coefficients.txt
+predictor_data.dbf
+predictor_data.prj
+predictor_data.shp
+predictor_data.shx
+scenario_results.dbf
+scenario_results.prj
+scenario_results.shp
+scenario_results.shx
+monthly_table.csv
+pud_results.dbf
+pud_results.prj
+intermediate/airdist.json
+intermediate/bonefish.json
+intermediate/ports.json

@@ -1,3 +1,2 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:969ef71ed31dcf6667ca654ba50a8deca7bce7f8b26da92abcf67a8ad470daf7
-size 44
+id,path,type
+ports,nopath.shp,point_count

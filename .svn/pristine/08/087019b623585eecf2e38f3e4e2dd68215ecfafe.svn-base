@@ -1,3 +1,25 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:8b01997343609da2f9bf9a352bbdefe7f2bf1afab99f1efe9e173745bc61fbc4
-size 1296
+code,lulc-class,biomass-half-life,biomass-low-impact-disturb,biomass-med-impact-disturb,biomass-high-impact-disturb,biomass-yearly-accumulation,soil-half-life,soil-low-impact-disturb,soil-med-impact-disturb,soil-high-impact-disturb,soil-yearly-accumulation
+0,Unnamed1,0,0,0,0,0,0,0,0,0,0
+1,Developed Dry Land,0,0,0,0,0,0,0,0,0,0
+2,Undeveloped Dry Land,0,0,0,0,0,0,0,0,0,0
+3,Nontidal Swamp,0,0,0,0,0,0,0,0,0,0
+4,Cypress Swamp,0,0,0,0,0,0,0,0,0,0
+5,Inland Fresh Marsh,0.5,0.5,0.5,1,0.5,7.5,0.3,1,1,10.21
+6,Tidal Fresh Marsh,0.5,0.5,0.5,1,0.5,7.5,0.3,1,1,10.21
+7,Transitional Salt Marsh,0.5,0.5,0.5,1,0.5,7.5,0.3,1,1,10.21
+8,Regularly Flooded Marsh,0.5,0.5,0.5,1,0.5,7.5,0.3,1,1,10.21
+9,Mangrove,15,0.5,0.5,1,2,7.5,0.3,0.5,0.66,5.35
+10,Estuarine Beach,0,0,0,0,0,0,0,0,0,0
+11,Tidal Flat,0,0,0,0,0,0,0,0,0,0
+12,Ocean Beach,0,0,0,0,0,0,0,0,0,0
+13,Unnamed2,0,0,0,0,0,0,0,0,0,0
+14,Rocky Intertidal,0,0,0,0,0,0,0,0,0,0
+15,Inland Open Water,0,0,0,0,0,0,0,0,0,0
+16,Riverine Tidal Open Water,0,0,0,0,0,0,0,0,0,0
+17,Estuarine Water,0,0,0,0,0,0,0,0,0,0
+18,Unnamed3,0,0,0,0,0,0,0,0,0,0
+19,Open Ocean,0,0,0,0,0,0,0,0,0,0
+20,Irregularly flooded marsh,0.5,0.5,0.5,1,0.5,7.5,0.3,1,1,10.21
+21,Unnamed4,0,0,0,0,0,0,0,0,0,0
+22,Inland Shore,0,0,0,0,0,0,0,0,0,0
+23,Tidal Swamp,0,0,0,0,0,0,0,0,0,0

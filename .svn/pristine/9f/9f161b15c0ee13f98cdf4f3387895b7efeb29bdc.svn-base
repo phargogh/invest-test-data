@@ -1,3 +1,4 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:04e9e60d4f35f3e4db5d03ce72f75e3e330d1fff5060ce8734fca3843a5ba2ba
-size 139
+Habitats,Class1,Class2,Class3,Class4,Class5,Class6,Class7,Class8
+Mangroves,0,1,1,0,0,0,0,0
+Corals,0,0,0,1,1,1,1,1
+Seagrass,0,1,1,0,0,0,0,0

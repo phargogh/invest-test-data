@@ -1,3 +1,8 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:16e5e4e87643c36d9940cadfcfa1f2df68413b020b54870ee85cce13aa32c79f
-size 148
+$(document).ready(function(){
+    //Append some text
+    add_comment();
+});
+
+function add_comment() {
+    $('p').append('Appended Text!');S
+}

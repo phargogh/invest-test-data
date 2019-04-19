@@ -1,3 +1,4 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:6979152e40a4683715f32bc956fe87fecabfcdbd897a10fadaea8c862ce8ef97
-size 81
+LULC_desc,lucode,demand
+lulc code 1,1,300
+lulc code 2,2,0
+lulc code 3,3,1300

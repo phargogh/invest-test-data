@@ -1,3 +1,6 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:425115664f0ea7d213975a4a47f482587931f068d1c506436b4cb2684e6c96dc
-size 254
+Percentile Group,Percentile Range,"Value Range (wave power per unit width of wave crest length, kW/m)",Pixel Count
+1,<25%,1 to 25.2,31.0
+2,25-50%,25.2 to 25.2,0.0
+3,50-75%,25.2 to 32.6,556.0
+4,75-90%,32.6 to 32.6,0.0
+5,>90%,Greater than 32.6,313.0

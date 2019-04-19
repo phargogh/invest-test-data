@@ -1,3 +1,86 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:215a98a950bb49c7cb82ef65a0e19a4bae6aa737d54044e07ef86f1c7d52fca7
-size 2953
+"""This was a test script to develop the WW3 unpickler"""
+
+import numpy as np
+import sys
+import struct
+
+def load_binary_wave_data(wave_file_uri):
+    """The extrapolate_wave_data function converts WW3 text data into a 
+    dictionary who's keys are the corresponding (I,J) values and whose value 
+    is a two-dimensional array representing a matrix of the number of hours 
+    a seastate occurs over a 5 year period. The row and column headers are 
+    extracted once and stored in the dictionary as well.
+    
+    wave_file_uri - The path to a text document that holds the WW3 data.
+    
+    returns - A dictionary of matrices representing hours of specific seastates,
+              as well as the period and height ranges.  It has the following
+              structure:
+               {'periods': [1,2,3,4,...],
+                'heights': [.5,1.0,1.5,...],
+                'bin_matrix': { (i0,j0): [[2,5,3,2,...], [6,3,4,1,...],...],
+                                (i1,j1): [[2,5,3,2,...], [6,3,4,1,...],...],
+                                 ...
+                                (in, jn): [[2,5,3,2,...], [6,3,4,1,...],...]
+                              }
+               }  
+    """
+    print('Extrapolating wave data from text to a dictionary')
+    wave_file = open(wave_file_uri,'rb')
+    wave_dict = {}
+    #Create a key that hosts another dictionary where the matrix representation
+    #of the seastate bins will be saved
+    wave_dict['bin_matrix'] = {}
+    wave_array = None
+    wave_periods = []
+    wave_heights = []
+    key = None
+
+    #get rows,cols
+    row_col_bin = wave_file.read(8)
+    row,col = struct.unpack('ii',row_col_bin)
+    print row,col
+
+    #get the periods and heights
+    line = wave_file.read(row*4)
+    wave_periods = list(struct.unpack('f'*row,line))
+    line = wave_file.read(col*4)
+    print(len(line))
+    wave_heights = list(struct.unpack('f'*col,line))
+    print wave_periods,wave_heights
+
+    key = None
+    while True:
+        line = wave_file.read(8)
+        if len(line) == 0:
+            #end of file
+            wave_dict['bin_matrix'][key] = wave_array
+            break
+
+        if key != None:
+            wave_dict['bin_matrix'][key] = wave_array
+
+        #Clear out array
+        wave_array = []
+
+        key = struct.unpack('ii',line)
+        print key
+
+        for row_id in range(row):
+            line = wave_file.read(col*4)
+            array = list(struct.unpack('f'*col,line))
+            #print(array)
+            wave_array.append(array)
+
+    wave_file.close()
+    #Add row/col header to dictionary
+    print('WaveData row %s', wave_periods)
+    wave_dict['periods'] = np.array(wave_periods, dtype='f')
+    print('WaveData col %s', wave_heights)
+    wave_dict['heights'] = np.array(wave_heights, dtype='f')
+    print('Finished extrapolating wave data to dictionary')
+    return wave_dict
+
+wave_file_uri = sys.argv[1]
+load_binary_wave_data(wave_file_uri)
+print("done loading %s" % wave_file_uri)

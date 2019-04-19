@@ -1,3 +1,25 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:127bc1324d87ffd7d76cb74a08f75089070dc1741767395271c4e0229f78d7c0
-size 885
+msa_lu.tif
+aoi_summary.dbf
+aoi_summary.prj
+aoi_summary.shp
+aoi_summary.shx
+msa.tif
+msa_f.tif
+msa_i.tif
+intermediate_outputs/distance_to_infrastructure.tif
+intermediate_outputs/globio_lulc.tif
+intermediate_outputs/primary_veg_smooth.tif
+intermediate_outputs/tmp/canals.tif
+intermediate_outputs/tmp/combined_infrastructure.tif
+intermediate_outputs/tmp/ffqi.tif
+intermediate_outputs/tmp/forest_areas.tif
+intermediate_outputs/tmp/gaussian_kernel.tif
+intermediate_outputs/tmp/highways.tif
+intermediate_outputs/tmp/intermediate_globio_lulc.tif
+intermediate_outputs/tmp/pasture.tif
+intermediate_outputs/tmp/potential_vegetation.tif
+intermediate_outputs/tmp/primary_veg_mask.tif
+intermediate_outputs/tmp/roads.tif
+intermediate_outputs/tmp/smoothed_forest_areas.tif
+intermediate_outputs/tmp/smoothed_primary_veg_mask.tif
+intermediate_outputs/tmp/transmission_lines.tif

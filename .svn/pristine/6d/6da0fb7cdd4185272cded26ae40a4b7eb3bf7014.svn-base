@@ -1,3 +1,4 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:fc4b0850471cb4a60b52963d5ae6076269251e7a104ef16572c0a63bf1e6058d
-size 230
+LULC_desc,lucode,Kc,root_depth,usle_c,usle_p,sedret_eff,load_n,eff_n,load_p,eff_p,LULC_veg
+lulc code 1,1,0.5,700,10,1,5,7000,5,1000,5,0
+lulc code 2,2,0.2,500,10,1,10,7250,5,1100,5,0
+lulc code 3,3,0.3,500,1,1,5,7500,5,1200,5,1

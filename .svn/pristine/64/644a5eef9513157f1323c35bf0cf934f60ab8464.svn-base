@@ -1,3 +1,28 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:47910d54b89dd4e91371ba35ab1ce8cbd8f88def1dd19d68b0daa114612f1fc5
-size 800
+./aggregated_results_cz.dbf
+./aggregated_results_cz.prj
+./aggregated_results_cz.shp
+./aggregated_results_cz.shx
+./B_cz.tif
+./B_sum_cz.tif
+./CN_cz.tif
+./intermediate_outputs/aet_cz.tif
+./intermediate_outputs/flow_dir_cz.tif
+./intermediate_outputs/qf_10_cz.tif
+./intermediate_outputs/qf_11_cz.tif
+./intermediate_outputs/qf_12_cz.tif
+./intermediate_outputs/qf_1_cz.tif
+./intermediate_outputs/qf_2_cz.tif
+./intermediate_outputs/qf_3_cz.tif
+./intermediate_outputs/qf_4_cz.tif
+./intermediate_outputs/qf_5_cz.tif
+./intermediate_outputs/qf_6_cz.tif
+./intermediate_outputs/qf_7_cz.tif
+./intermediate_outputs/qf_8_cz.tif
+./intermediate_outputs/qf_9_cz.tif
+./intermediate_outputs/stream_cz.tif
+./L_avail_cz.tif
+./L_cz.tif
+./L_sum_avail_cz.tif
+./L_sum_cz.tif
+./QF_cz.tif
+./Vri_cz.tif

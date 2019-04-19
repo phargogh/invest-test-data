@@ -1,3 +1,10 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:e41273456be3a5768875d562d4279b85e2be3a111638f0ab10061b5f4ebe3972
-size 385
+import ogr
+path=r"C:\Users\Rich\Documents\seasonal_water_yield_workspace\aggregated_results_cz.shp"
+v=ogr.Open(path)
+l=v.GetLayer()
+with open('agg_results_cz.csv', 'wb') as out_csv:
+    for feature in l:
+        line = str(feature.GetFID())
+        line += ','+str(feature.GetField('vri_sum'))
+        line += ','+str(feature.GetField('qb'))+'\n'
+        out_csv.write(line)

@@ -1,3 +1,18 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:4ab36acb4e4e184e4a8c872201baa54f8adb0f4aa6411774db73ad90ae9f71ac
-size 409
+air_density,1.225
+exponent_power_curve,2
+decommission_cost,.037
+operation_maintenance_cost,.035
+miscellaneous_capex_cost,.05
+installation_cost,.20
+infield_cable_length,0.91
+infield_cable_cost,0.26
+mw_coef_ac,.81
+mw_coef_dc,1.09
+cable_coef_ac,1.36
+cable_coef_dc,.89
+ac_dc_distance_break,60
+time_period,20
+rotor_diameter_factor,7
+carbon_coefficient,6.8956e-4
+air_density_coefficient,1.194e-4
+loss_parameter,.05

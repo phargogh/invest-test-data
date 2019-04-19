@@ -1,3 +1,1 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:37be7a3d87ab5828c49e9b9d0c64df819690f48d73af3b6fe1c48db8ac7bc35b
-size 646
+<table class="sorttable" id="parcel_table"><thead><tr><th>ws_id</th><th class= "checkbox">Select</th><th>num_pixels</th><th>wyield_vol</th></tr></thead><tfoot><tr class="checkTotal"><td>Selected Total</td><td class="checkbox">--</td><td>--</td><td>--</td></tr></tfoot><tbody><tr><td>0</td><td class="checkbox"><input type=checkbox name=cb value=1></td><td>47017.0</td><td>50390640.85</td></tr><tr><td>1</td><td class="checkbox"><input type=checkbox name=cb value=1></td><td>93339.0</td><td>103843576.83</td></tr><tr><td>2</td><td class="checkbox"><input type=checkbox name=cb value=1></td><td>20977.0</td><td>21336791.14</td></tr></tbody></table>

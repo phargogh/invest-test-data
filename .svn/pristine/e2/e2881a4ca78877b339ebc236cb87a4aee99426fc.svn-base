@@ -1,3 +1,10 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:4b13163825f99ee83460b2dffb23ffb5ad03cea165d9383ee0a36cca17ba137f
-size 303
+output\Finfish_Harvest.dbf
+output\Finfish_Harvest.prj
+output\Finfish_Harvest.shp
+output\Finfish_Harvest.shx
+output\Harvest_Results.html
+output\images\farm_1_cycles.png
+output\images\farm_1_weight.png
+output\images\farm_2_cycles.png
+output\images\farm_2_weight.png
+output\images\total_weight.png

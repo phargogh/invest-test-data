@@ -1,3 +1,7 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:96aa9878d980973a4a5a578aeb15242215c764159bb3decdf6cd368f040a1399
-size 135
+Projection    UTM
+Zone          10
+Datum         NAD83
+Spheroid      GRS80
+Units         METERS
+Zunits        NO
+Parameters    

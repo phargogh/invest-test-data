@@ -1,3 +1,11 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:bdbc50c6a115c018f854b4e2ebeeb1275ad05902daa225c1f40d8f5bafe4ac49
-size 237
+./aggregated_results.dbf
+./aggregated_results.prj
+./aggregated_results.shp
+./aggregated_results.shx
+./B.tif
+./B_sum.tif
+./intermediate_outputs/flow_dir.tif
+./intermediate_outputs/stream.tif
+./L_avail.tif
+./L_sum.tif
+./Vri.tif

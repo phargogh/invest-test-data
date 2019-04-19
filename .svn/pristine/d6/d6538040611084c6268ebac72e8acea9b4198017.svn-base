@@ -1,3 +1,1 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:445341ac2baae7c7a4ae9836f4ab4913ea8b80a685a0047a3e61a569b5818564
-size 293
+PROJCS["Sinusoidal",GEOGCS["GCS_unnamed ellipse",DATUM["D_unknown",SPHEROID["Unknown",6371007.181,0]],PRIMEM["Greenwich",0],UNIT["Degree",0.017453292519943295]],PROJECTION["Sinusoidal"],PARAMETER["central_meridian",0],PARAMETER["false_easting",0],PARAMETER["false_northing",0],UNIT["Meter",1]]

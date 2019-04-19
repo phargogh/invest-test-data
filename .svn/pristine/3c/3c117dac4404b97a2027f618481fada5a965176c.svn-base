@@ -1,3 +1,59 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:5a2a6b4dd6e2da848047e8e65399bdbf6380de4e9f77dc0b7dced7ece26e7629
-size 2190
+"""This script is used to take a CK WW3 text data file and convert it
+to a compressed binary form that's faster to load and cheapter to
+build in an installer than the bulky text format supplied."""
+
+import numpy as np
+import sys
+import struct
+
+def text_wave_data_to_binary(wave_file_uri, binary_file_uri):
+    """Load the proprietary ck wave file and output it to the InVEST 3.0 proprietyary wave file binary format.
+    
+    wave_file_uri - The path to a text document that holds the WW3 data.
+    binary_file_uri - The path to a a binary file that will be used to hold the binary WW3 data.
+    """
+    wave_file = open(wave_file_uri,'rU')
+    bin_file = open(wave_file_uri + '.bin', 'wb')
+
+    wave_dict = {}
+    #Create a key that hosts another dictionary where the matrix representation
+    #of the seastate bins will be saved
+    wave_dict['bin_matrix'] = {}
+    wave_array = None
+    wave_periods = []
+    wave_heights = []
+    key = None
+
+    #get the periods and heights
+    #print wave_file.readline().rstrip('\n').split(',')
+    wave_periods = map(float,wave_file.readline().rstrip('\n').split(','))
+    wave_heights = map(float,wave_file.readline().rstrip('\n').split(','))
+    s=struct.pack('ii',len(wave_periods),len(wave_heights))
+    bin_file.write(s)
+    s=struct.pack('f'*len(wave_periods), *wave_periods)
+    bin_file.write(s)
+    s=struct.pack('f'*len(wave_heights), *wave_heights)
+    bin_file.write(s)
+
+    while True:
+        line = wave_file.readline()
+        if len(line) == 0:
+            #end of file
+            wave_dict['bin_matrix'][key] = wave_array
+            break
+
+        #If it is the start of a new location, get (I,J) values
+        if line[0] == 'I':
+            #split I, n, J, m into just the numeric part
+            i,j = map(int,line.split(',')[1:4:2])
+            s=struct.pack('ii',i,j)
+            bin_file.write(s)
+        else:
+            float_list = map(float,line.split(','))
+            s=struct.pack('f'*len(float_list), *float_list)
+            bin_file.write(s)
+
+wave_file_uri = sys.argv[1]
+binary_file_uri = wave_file_uri + '.bin'
+text_wave_data_to_binary(wave_file_uri, binary_file_uri)
+print("done pickling %s" % wave_file_uri)

@@ -1,3 +1,5 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:defdebcb2ce1706498bec82ac0bb06acf15ccef66ef39aabf9fc8d7f317a2652
-size 194
+id,path,rank,protection distance (m)
+kelp,habitats/kelp_v2.shp,4,2500
+eelgrass,habitats/eelgrass_v2.shp,3,1000
+high_dune,habitats/HighDunes.shp,1,3000
+low_dune,habitats/LowDunes.shp,2,2000

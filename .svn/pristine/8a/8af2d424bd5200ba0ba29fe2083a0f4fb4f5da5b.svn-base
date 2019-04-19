@@ -1,3 +1,8 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:4f2b9d63c14c195a64bb7bfb7a2d22b7a88a0319c591ec600f65aaf422a0507f
-size 286
+Stage,1,,Duration,VulnFishing,Weight
+eggs/larvae,0.675839268,,16,0,0.0001751148
+post-larval,0.889674156,,30,0,0.029035561
+marsh,0.964061683,,52,0,0.7587893113
+bay,0.974910117,,33,0.1097877425,4.0266860357
+adult,0.980983146,,234,1,7.4548494142
+,,,,,
+ExploitationFraction,0.019016854,,,,

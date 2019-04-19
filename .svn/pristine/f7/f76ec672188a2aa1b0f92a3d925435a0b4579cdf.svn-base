@@ -1,3 +1,1 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:3e54268b8443702f9221dbe47c3c9f07ac510ecc615fa11c0291ad85e7a15d7a
-size 688
+<table><thead><tr><th class= "my_class">ws_id</th><th class= "my_class">num_pixels</th><th class= "my_class">wyield_vol</th></tr></thead><tfoot><tr class="totalColumn"><td class="my_class">Total</td><td class="totalCol my_class">--</td><td class="totalCol my_class">--</td></tr></tfoot><tbody><tr><td class="my_class">0</td><td class="rowDataSd my_class">47017.0</td><td class="rowDataSd my_class">50390640.85</td></tr><tr><td class="my_class">1</td><td class="rowDataSd my_class">93339.0</td><td class="rowDataSd my_class">103843576.83</td></tr><tr><td class="my_class">2</td><td class="rowDataSd my_class">20977.0</td><td class="rowDataSd my_class">21336791.14</td></tr></tbody></table>

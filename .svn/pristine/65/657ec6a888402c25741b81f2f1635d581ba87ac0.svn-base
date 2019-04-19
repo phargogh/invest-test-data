@@ -1,3 +1,5 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:717078e7de7b8b1849752b6036d216dc756d092b70c15ac2b282d8faa97440b1
-size 155
+ID,TYPE,LAT,LONG,LOCATION
+1,LAND,49.286,-126.178,Ucluelet
+2,LAND,49.382,-126.337,Tofino
+1,GRID,49.277,-126.501,Ucluelet
+2,GRID,49.036,-126.299,Tofino

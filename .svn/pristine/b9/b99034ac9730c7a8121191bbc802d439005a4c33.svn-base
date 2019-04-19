@@ -1,3 +1,31 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:f84638eb715f77398d477688c38f4c5ea1b8ca5ddf525ec6d1b442cd515cc093
-size 1105
+"""Script to create 2 polygon shapefile."""
+import pygeoprocessing.testing
+from pygeoprocessing.testing import scm
+from pygeoprocessing.testing import sampledata
+from shapely.geometry import Polygon
+
+fields = {'ws_id': 'int', 'wyield_mn': 'real', 'wyield_vol': 'real'}
+
+attributes = [
+    {'ws_id': 1, 'wyield_mn': 1000, 'wyield_vol': 1000},
+    {'ws_id': 2, 'wyield_mn': 1000, 'wyield_vol': 800}]
+
+srs = sampledata.SRS_WILLAMETTE
+
+pos_x = srs.origin[0]
+pos_y = srs.origin[1]
+
+poly_geoms = {
+    'poly_1': [(pos_x, pos_y), (pos_x + 100, pos_y),
+               (pos_x + 100, pos_y - 100), (pos_x, pos_y - 100),
+               (pos_x, pos_y)],
+    'poly_2': [(pos_x + 100, pos_y), (pos_x + 200, pos_y),
+               (pos_x + 200, pos_y - 100),
+               (pos_x + 100, pos_y - 100), (pos_x + 100, pos_y)]
+            }
+
+geometries = [Polygon(poly_geoms['poly_1']), Polygon(poly_geoms['poly_2'])]
+
+_ = pygeoprocessing.testing.create_vector_on_disk(
+    geometries, srs.projection, fields, attributes,
+    vector_format='ESRI Shapefile', filename="two_polygon_shape.shp")

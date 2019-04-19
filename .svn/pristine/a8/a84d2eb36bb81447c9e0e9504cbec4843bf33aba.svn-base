@@ -1,3 +1,6 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:6b771895f623965d70268981bcc688c1b0278a7ec5403678309bd5553d4043da
-size 322
+./aggregated_carbon_stocks_small_no_edge_effect.dbf
+./aggregated_carbon_stocks_small_no_edge_effect.prj
+./aggregated_carbon_stocks_small_no_edge_effect.shp
+./aggregated_carbon_stocks_small_no_edge_effect.shx
+./carbon_map_small_no_edge_effect.tif
+./intermediate_outputs/c_above_carbon_stocks_small_no_edge_effect.tif

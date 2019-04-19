@@ -1,3 +1,4 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:d21e3cb6285150ffbdd4bcbd383368d4ad895cedb3d7ffb6707c3591968b8bc2
-size 198
+station_desc,ws_id,time_span,discount,efficiency,fraction,cost,height,kw_price
+Hydropower1,0,100,5,0.75,0.6,0,25,0.07
+Hydropower3,2,100,5,0.9,0.6,0,30,0.07
+Hydropower4,3,100,5,0.9,0.6,0,30,0.07

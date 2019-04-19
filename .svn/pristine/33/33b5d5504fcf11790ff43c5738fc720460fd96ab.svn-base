@@ -1,3 +1,1 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:f5ab6edaf60a6d3fc3681ea3c24dffa66f64aabb3e976a28b4baf2d27ec4de4d
-size 178
+200809291141   0     0     0ncpgis C:\DOCUME~1\ncpgis\LOCALS~1\Temp\raster3 = SELECTMASK(D:\gis\Stacie\WILLAM~1\input\4stacie\dem_int, C:\DOCUME~1\ncpgis\LOCALS~1\Temp\raster2)

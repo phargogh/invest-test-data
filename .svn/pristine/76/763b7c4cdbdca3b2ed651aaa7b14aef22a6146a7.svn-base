@@ -1,3 +1,27 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:d7f284ded1fdcc7464678998482e114990f7b05353aca3545609d5032d533dbf
-size 528
+Lobster Model
+=============
+
+AOI: Belize
+Timesteps: 100
+
+Population Model Type: Age-Based
+Sex-Specific: No
+Harvest by Individuals or Weight: Weight
+
+Initial Recruits: 4,500,000
+Recruitment Function: Beverton-Holt
+Spawners by Individual or Weight: Weight
+Alpha: 5.77e6
+Beta: 2.885e6
+
+*Migration*
+Yes, Age 2
+
+*Valuation*
+Yes,
+Fraction of Harvest Kept Post-Process: 0.28633258
+Unit Price: 29.93
+
+--- Verification with Spreadsheet Model ---
+Spreadsheet Spawners at 100th Cycle: 2,847,870
+Spreadsheet Harvest at 100th Cycle: 963,451

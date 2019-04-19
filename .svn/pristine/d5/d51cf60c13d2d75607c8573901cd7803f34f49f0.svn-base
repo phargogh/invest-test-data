@@ -1,3 +1,5 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:b20a6cdba8956559dadc5923980d1b6331132fb6b35cc053db34a42b0eb05cf0
-size 87
+monthly_table.csv
+pud_results.shp
+pud_results.shx
+pud_results.dbf
+pud_results.prj

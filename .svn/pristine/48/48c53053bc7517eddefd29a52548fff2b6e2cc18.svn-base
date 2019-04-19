@@ -1,3 +1,8 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:b56a30b6c8c24f910b7ae2793f4e4a44930316f762b23015962d1674e816632a
-size 498
+{
+"type": "FeatureCollection",
+"name": "STRESSOR_stressor_0",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Stressor": 1 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -116.86478019534715, 6.206688170487133 ], [ -116.8647812398677, 6.206598229519215 ], [ -116.86469136722843, 6.206597184204822 ], [ -116.86469032269282, 6.206687125157476 ], [ -116.86478019534715, 6.206688170487133 ] ] ] } }
+]
+}

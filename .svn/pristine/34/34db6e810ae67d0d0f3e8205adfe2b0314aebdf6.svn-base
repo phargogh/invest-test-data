@@ -1,3 +1,10 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:2b7494f1e3b292bad89cc724109a123f394d2fae56ec30a83b46e6eaac5cf8a2
-size 306
+<PAMDataset>
+  <PAMRasterBand band="1">
+    <Metadata>
+      <MDI key="STATISTICS_MAXIMUM">1</MDI>
+      <MDI key="STATISTICS_MEAN">0.34615384615385</MDI>
+      <MDI key="STATISTICS_MINIMUM">0</MDI>
+      <MDI key="STATISTICS_STDDEV">0.47574295680204</MDI>
+    </Metadata>
+  </PAMRasterBand>
+</PAMDataset>

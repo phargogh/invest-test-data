@@ -1,3 +1,10 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:4b747ca22a4a93261078abf0c4b27ba2a1bb57971110043c15a6078a003099e2
-size 344
+msa_lu.tif
+msa.tif
+msa_f.tif
+msa_i.tif
+intermediate_outputs/distance_to_infrastructure.tif
+intermediate_outputs/primary_veg_smooth.tif
+intermediate_outputs/tmp/combined_infrastructure.tif
+intermediate_outputs/tmp/gaussian_kernel.tif
+intermediate_outputs/tmp/primary_veg_mask.tif
+intermediate_outputs/tmp/smoothed_primary_veg_mask.tif

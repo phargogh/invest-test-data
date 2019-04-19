@@ -1,3 +1,6 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:a782db410bc4de96c17d2bdbe367ae0f3d07dfdd0290060066a927d67f00c93e
-size 195
+nearest_to_edge.tif
+farthest_from_edge.csv
+farthest_from_edge.tif
+nearest_to_edge.csv
+intermediate_outputs/nearest_to_edge_distance.tif
+intermediate_outputs/farthest_from_edge_distance.tif

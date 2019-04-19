@@ -1,3 +1,15 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:b97aab984c6e8c562c8859210df5ecd06c34ae4038f747ee5c2e689a2770cbd3
-size 637
+./aggregated_carbon_stocks.dbf
+./aggregated_carbon_stocks.prj
+./aggregated_carbon_stocks.shp
+./aggregated_carbon_stocks.shx
+./carbon_map.tif
+./intermediate_outputs/c_above_carbon_stocks.tif
+./intermediate_outputs/c_below_carbon_stocks.tif
+./intermediate_outputs/c_dead_carbon_stocks.tif
+./intermediate_outputs/c_soil_carbon_stocks.tif
+./intermediate_outputs/edge_distance.tif
+./intermediate_outputs/local_carbon_shape.dbf
+./intermediate_outputs/local_carbon_shape.prj
+./intermediate_outputs/local_carbon_shape.shp
+./intermediate_outputs/local_carbon_shape.shx
+./intermediate_outputs/tropical_forest_edge_carbon_stocks.tif

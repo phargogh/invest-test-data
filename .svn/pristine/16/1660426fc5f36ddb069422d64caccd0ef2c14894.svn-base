@@ -1,3 +1,4 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:6b3b1ee279ba35d663969bbee56e4c330fc262f9d9df0b55b092942a791afd02
-size 191
+Habitats,Region1,Region2,Region3,Region4,Region5,Region6,Region7,Region8,Region9
+Mangroves,0.1,0.2,-0.1,-0.2,0,0,0,0,0
+Corals,0.2,0.1,-0.2,-0.1,0,0,0,0,0
+Seagrass,-0.1,-0.2,0.1,0.2,0,0,0,0,0

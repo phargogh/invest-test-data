@@ -1,3 +1,23 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:c32388daf8982188a09813b73a76c9b8a6000790434f26f8fd373804f8e847c0
-size 470
+Blue Crab Model
+===============
+
+AOI: Galveston Bay, Texas
+Timesteps: 100
+
+Population Model Type: Age-Based
+Sex-Specific: No
+Harvest by Individuals or Weight: Individuals
+
+Initial Recruits: 2e5
+Recruitment Function: Ricker
+Spawners by Individuals or Weight: Individuals
+Alpha: 6.05e6
+Beta: 4.14e-8
+
+(No Migration)
+
+(No Valuation)
+
+--- Verification with Spreadsheet Model ---
+Spreadsheet Spawners at 100th Cycle: 42,644,460
+Spreadsheet Harvest at 100th Cycle: 24,798,419

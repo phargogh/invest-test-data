@@ -1,3 +1,9 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:392cd585e617063adb35a4b5281cb5125d0c1334ca49c0ca8bb247eea8e25a92
-size 837
+{
+"type": "FeatureCollection",
+"name": "RECLASS_RISK_Ecosystem",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Risk Score": 1 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -116.86478019534715, 6.206688170487133 ], [ -116.86478050870494, 6.206661188196808 ], [ -116.86469063605512, 6.20666014287173 ], [ -116.86469032269282, 6.206687125157476 ], [ -116.86478019534715, 6.206688170487133 ] ] ] } },
+{ "type": "Feature", "properties": { "Risk Score": 2 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -116.86478050870494, 6.206661188196808 ], [ -116.8647812398677, 6.206598229519215 ], [ -116.86469136722843, 6.206597184204822 ], [ -116.86469063605512, 6.20666014287173 ], [ -116.86478050870494, 6.206661188196808 ] ] ] } }
+]
+}

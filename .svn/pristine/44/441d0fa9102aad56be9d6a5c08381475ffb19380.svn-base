@@ -1,3 +1,24 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:eec8de254c3318807bb0e9a28b9110cb6d20c13b8ef7db57a89dfe549441b735
-size 494
+Shrimp Model
+============
+
+AOI: Galveston Bay, Texas
+Timesteps: 300
+
+Population Model Type: Stage-Based
+Sex-Specific: No
+Harvest by Individuals or Weight: Weight
+
+Initial Recruits: 1e5
+Recruitment Function: Fixed
+Total Recruits per Time Step: 2.16e11
+Spawners by Individuals or Weight: (Not considered for Fixed-recruitment)
+
+(No Migration)
+
+(No Valuation)
+
+--- Verification with Spreadsheet Model ---
+
+Equilibrates at 223rd Cycle
+
+Spreadsheet Harvest at 223rd Cycle: 3,096,000 (Weight, grams)

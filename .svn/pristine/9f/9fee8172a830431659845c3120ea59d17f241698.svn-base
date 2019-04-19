@@ -1,3 +1,27 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:9462189d4a223a0142dbd911784e4877658b9891d006b4d4ce8c38205d28463e
-size 866
+./watershed_results_sdr.dbf
+./watershed_results_sdr.prj
+./watershed_results_sdr.shp
+./watershed_results_sdr.shx
+./rkls.tif
+./sed_export.tif
+./sed_retention.tif
+./sed_retention_index.tif
+./stream.tif
+./usle.tif
+./intermediate_outputs/ic.tif
+./intermediate_outputs/ic_bare_soil.tif
+./intermediate_outputs/ls.tif
+./intermediate_outputs/processed_cell.tif
+./intermediate_outputs/s_bar.tif
+./intermediate_outputs/sdr_bare_soil.tif
+./intermediate_outputs/sdr_factor.tif
+./intermediate_outputs/slope.tif
+./intermediate_outputs/thresholded_slope.tif
+./intermediate_outputs/w.tif
+./intermediate_outputs/w_bar.tif
+./intermediate_outputs/d_dn.tif
+./intermediate_outputs/d_dn_bare_soil.tif
+./intermediate_outputs/d_up.tif
+./intermediate_outputs/d_up_bare_soil.tif
+./intermediate_outputs/flow_accumulation.tif
+./intermediate_outputs/flow_direction.tif
