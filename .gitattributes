@@ -1,3 +1,23 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:a972b459fe3f7537ab9b96da5025649e356e64e3756375b42fc43308c962bd59
-size 40
+_example_model/** filter=lfs diff=lfs merge=lfs -text
+aquaculture/** filter=lfs diff=lfs merge=lfs -text
+coastal_blue_carbon/** filter=lfs diff=lfs merge=lfs -text
+coastal_vulnerability/** filter=lfs diff=lfs merge=lfs -text
+crop_production_model/** filter=lfs diff=lfs merge=lfs -text
+data_platform/** filter=lfs diff=lfs merge=lfs -text
+data_stack/** filter=lfs diff=lfs merge=lfs -text
+delineateit/** filter=lfs diff=lfs merge=lfs -text
+exp_decay_kernel/** filter=lfs diff=lfs merge=lfs -text
+fisheries/** filter=lfs diff=lfs merge=lfs -text
+forest_carbon_edge_effect/** filter=lfs diff=lfs merge=lfs -text
+globio/** filter=lfs diff=lfs merge=lfs -text
+hra/** filter=lfs diff=lfs merge=lfs -text
+hydropower/** filter=lfs diff=lfs merge=lfs -text
+ndr/** filter=lfs diff=lfs merge=lfs -text
+pollination/** filter=lfs diff=lfs merge=lfs -text
+recreation/** filter=lfs diff=lfs merge=lfs -text
+reporting/** filter=lfs diff=lfs merge=lfs -text
+scenario_gen_proximity/** filter=lfs diff=lfs merge=lfs -text
+sdr/** filter=lfs diff=lfs merge=lfs -text
+seasonal_water_yield/** filter=lfs diff=lfs merge=lfs -text
+wave_energy/** filter=lfs diff=lfs merge=lfs -text
+wind_energy/** filter=lfs diff=lfs merge=lfs -text
