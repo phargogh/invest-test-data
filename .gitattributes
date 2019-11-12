@@ -19,5 +19,7 @@ reporting/** filter=lfs diff=lfs merge=lfs -text
 scenario_gen_proximity/** filter=lfs diff=lfs merge=lfs -text
 sdr/** filter=lfs diff=lfs merge=lfs -text
 seasonal_water_yield/** filter=lfs diff=lfs merge=lfs -text
+ucm/** filter=lfs diff=lfs merge=lfs -text
+ufrm/** filter=lfs diff=lfs merge=lfs -text
 wave_energy/** filter=lfs diff=lfs merge=lfs -text
 wind_energy/** filter=lfs diff=lfs merge=lfs -text

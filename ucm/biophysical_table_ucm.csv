@@ -1,3 +1,27 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:08bd8b51717cbc5a488344b5d4d89943145a4098137a4441e6e9bb3129f4268d
-size 932
+lucode,Description,Shade,Kc,Albedo,Green_area
+0,Background,0,0,0,0
+1,"Unclassified (Cloud, Shadow, etc)",0,0,0,0
+2,High intens (>80% IA),0.05,0.37,0.18,0
+3,Med intens (50-80%),0.18,0.55,0.19,0
+4,Low intens (20-50%),0.33,0.76,0.19,0
+5,Open space (<20%),0.45,0.93,0.2,0
+6,Cultivated Land,1,0.7,0.2,1
+7,Pasture/Hay,1,1,0.2,1
+8,Grassland,1,1,0.2,1
+9,Deciduous Forest,1,1,0.15,1
+10,Evergreen Forest,1,1,0.15,1
+11,Mixed Forest,1,1,0.15,1
+12,Scrub/Shrub,1,1,0.2,1
+13,Palustrine Forested Wetland,1,1,0.11,1
+14,Palustrine Scrub/Shrub Wetland,1,1,0.11,1
+15,Palustrine Emergent Wetland,1,1,0.11,1
+16,Estuarine Forested Wetland,1,1,0.11,1
+17,Estuarine Scrub/Shrub Wetland,1,1,0.11,1
+18,Estuarine Emergent Wetland,1,1,0.11,1
+19,Unconsolidated Shore,0,0,0,0
+20,Bare Land,0,0.3,0.2,0
+21,Water,1,1,0.06,1
+22,Palustrine Aquatic Bed,1,1,0.06,1
+23,Estuarine Aquatic Bed,1,1,0.06,1
+24,Tundra,1,1,0.2,1
+25,Snow/Ice,1,1,0.75,0
